@@ -5,6 +5,7 @@
 
 body {
     background: linear-gradient(to right, rgb(255, 167, 35), rgb(255, 97, 35));
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -63,7 +64,8 @@ body {
     font-weight: normal;
     margin-top: 10px;
 }
-.time{
+
+.time {
     font-size: calc(1rem + 1vw);
     font-weight: normal;
     margin-top: 10px;
@@ -89,7 +91,6 @@ body {
     border-right: 1px solid #777;
 }
 
-
 .detail .title {
     font-size: calc(1rem + 1vw);
     flex-grow: 1;
@@ -109,7 +110,7 @@ body {
 
 .city-search {
     margin-top: 40px;
-    font-size: 2rem;
+    font-size: calc(1rem + 1vw);
     outline: none;
     border: 1px solid #777;
     border-radius: 5px;
@@ -117,3 +118,24 @@ body {
     width: 100%;
 }
 
+.pac-item {
+    font-size: calc(1rem + 1vw);
+    padding: 10px 10px;
+}
+
+.pac-icon {
+    display: none;
+}
+
+.pac-item-query {
+    font-size: calc(1rem + 1vw);
+    padding-right: 14px;
+}
+
+.darksky-logo {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: #333;
+    font-size: 1.5rem;
+}
